@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#fafafa"/>
+
+  <!-- Top accent bar -->
+  <rect width="1200" height="6" fill="#4a6cf7"/>
+
+  <!-- Icon background -->
+  <rect x="60" y="50" width="56" height="56" rx="12" fill="#4a6cf7"/>
+  <text x="88" y="88" font-family="Arial,sans-serif" font-size="32" fill="#fff"
+        text-anchor="middle" font-weight="bold">K</text>
+
+  <!-- Title -->
+  <text x="132" y="82" font-family="Arial,sans-serif" font-size="36" fill="#1e1e1e"
+        font-weight="bold">Kaaro Excalidraw</text>
+
+  <!-- Tagline -->
+  <text x="60" y="140" font-family="Arial,sans-serif" font-size="24" fill="#666">
+    Claude Code Skills for Excalidraw
+  </text>
+
+  <!-- Divider -->
+  <rect x="60" y="165" width="80" height="3" rx="1.5" fill="#4a6cf7"/>
+
+  <!-- Skill 1: /excalidraw-generate -->
+  <rect x="60" y="200" width="620" height="90" rx="10" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="60" y="200" width="5" height="90" rx="2" fill="#4a6cf7"/>
+  <text x="85" y="232" font-family="Consolas,monospace" font-size="18" fill="#4a6cf7"
+        font-weight="bold">/excalidraw-generate</text>
+  <text x="85" y="260" font-family="Arial,sans-serif" font-size="16" fill="#555">
+    Generate .excalidraw scenes from natural language.
+  </text>
+  <text x="85" y="280" font-family="Arial,sans-serif" font-size="14" fill="#888">
+    Describe a diagram, get a ready-to-use Excalidraw file.
+  </text>
+
+  <!-- Skill 2: /excalidraw-library -->
+  <rect x="60" y="305" width="620" height="90" rx="10" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="60" y="305" width="5" height="90" rx="2" fill="#16a34a"/>
+  <text x="85" y="337" font-family="Consolas,monospace" font-size="18" fill="#16a34a"
+        font-weight="bold">/excalidraw-library</text>
+  <text x="85" y="365" font-family="Arial,sans-serif" font-size="16" fill="#555">
+    Create or modify Excalidraw library files.
+  </text>
+  <text x="85" y="385" font-family="Arial,sans-serif" font-size="14" fill="#888">
+    Add items, edit existing libraries, bundle from sources.
+  </text>
+
+  <!-- Skill 3: /excalidraw-new-library -->
+  <rect x="60" y="410" width="620" height="90" rx="10" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="60" y="410" width="5" height="90" rx="2" fill="#d97706"/>
+  <text x="85" y="442" font-family="Consolas,monospace" font-size="18" fill="#d97706"
+        font-weight="bold">/excalidraw-new-library</text>
+  <text x="85" y="470" font-family="Arial,sans-serif" font-size="16" fill="#555">
+    Scaffold a new library workspace.
+  </text>
+  <text x="85" y="490" font-family="Arial,sans-serif" font-size="14" fill="#888">
+    meta.json, starter items, ready for authoring.
+  </text>
+
+  <!-- Right side: terminal mockup -->
+  <rect x="730" y="200" width="410" height="300" rx="10" fill="#1e1e1e"/>
+  <!-- Terminal title bar -->
+  <rect x="730" y="200" width="410" height="30" rx="10" fill="#2d2d2d"/>
+  <rect x="730" y="220" width="410" height="10" fill="#2d2d2d"/>
+  <circle cx="750" cy="215" r="5" fill="#ff5f57"/>
+  <circle cx="768" cy="215" r="5" fill="#ffbd2e"/>
+  <circle cx="786" cy="215" r="5" fill="#28c840"/>
+  <text x="935" y="219" font-family="Arial,sans-serif" font-size="12" fill="#999"
+        text-anchor="middle">Claude Code</text>
+
+  <!-- Terminal content -->
+  <text x="750" y="260" font-family="Consolas,monospace" font-size="14" fill="#888">$</text>
+  <text x="770" y="260" font-family="Consolas,monospace" font-size="14" fill="#4a6cf7">
+    /excalidraw-generate
+  </text>
+  <text x="750" y="285" font-family="Consolas,monospace" font-size="13" fill="#28c840">
+    "Draw a flowchart for
+  </text>
+  <text x="750" y="305" font-family="Consolas,monospace" font-size="13" fill="#28c840">
+     user authentication"
+  </text>
+  <text x="750" y="340" font-family="Consolas,monospace" font-size="13" fill="#888">
+    Creating scene...
+  </text>
+  <text x="750" y="365" font-family="Consolas,monospace" font-size="13" fill="#888">
+    Adding 6 elements:
+  </text>
+  <text x="770" y="388" font-family="Consolas,monospace" font-size="12" fill="#d97706">
+    Login Form &#x2192; Validate
+  </text>
+  <text x="770" y="408" font-family="Consolas,monospace" font-size="12" fill="#d97706">
+    &#x2192; Auth Check &#x2192; Dashboard
+  </text>
+  <text x="750" y="440" font-family="Consolas,monospace" font-size="13" fill="#28c840">
+    &#x2713; Wrote auth-flow.excalidraw
+  </text>
+  <text x="750" y="465" font-family="Consolas,monospace" font-size="13" fill="#28c840">
+    &#x2713; 6 elements, 5 arrows
+  </text>
+
+  <!-- Bottom bar -->
+  <rect y="560" width="1200" height="70" fill="#1e1e1e"/>
+  <text x="60" y="600" font-family="Arial,sans-serif" font-size="16" fill="#999">
+    Claude Code Skills for Excalidraw
+  </text>
+  <text x="1140" y="600" font-family="Arial,sans-serif" font-size="16" fill="#4a6cf7"
+        text-anchor="end">karx.github.io/kaaroExcalidraw</text>
+
+  <!-- Bottom accent bar -->
+  <rect y="624" width="1200" height="6" fill="#4a6cf7"/>
+</svg>

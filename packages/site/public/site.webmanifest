@@ -1,0 +1,16 @@
+{
+  "name": "Kaaro Excalidraw — Claude Skills for Diagrams",
+  "short_name": "Kaaro Libs",
+  "description": "Claude Code skills for Excalidraw: generate scenes from text, create and manage libraries, scaffold workspaces. Browse and import community libraries.",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#4a6cf7",
+  "background_color": "#fafafa",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "categories": ["design", "productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr"
+}

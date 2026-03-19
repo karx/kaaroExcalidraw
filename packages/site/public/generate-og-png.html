@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generate OG PNG from SVG</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f5f5f5; }
+    canvas { border: 1px solid #ccc; display: block; margin: 1rem 0; }
+    button { padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer; }
+    a { display: none; }
+  </style>
+</head>
+<body>
+  <h1>OG Image PNG Generator</h1>
+  <p>Click "Render" to generate a 1200x630 PNG from <code>og-image.svg</code>.</p>
+  <button id="render">Render PNG</button>
+  <canvas id="canvas" width="1200" height="630"></canvas>
+  <a id="download">Download og-image.png</a>
+
+  <script>
+    const btn = document.getElementById('render');
+    const canvas = document.getElementById('canvas');
+    const link = document.getElementById('download');
+    const ctx = canvas.getContext('2d');
+
+    btn.addEventListener('click', async () => {
+      btn.disabled = true;
+      btn.textContent = 'Rendering...';
+
+      const res = await fetch('og-image.svg');
+      const svgText = await res.text();
+      const blob = new Blob([svgText], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+
+      const img = new Image();
+      img.width = 1200;
+      img.height = 630;
+      img.onload = () => {
+        ctx.drawImage(img, 0, 0, 1200, 630);
+        URL.revokeObjectURL(url);
+
+        canvas.toBlob((pngBlob) => {
+          const pngUrl = URL.createObjectURL(pngBlob);
+          link.href = pngUrl;
+          link.download = 'og-image.png';
+          link.style.display = 'inline';
+          link.textContent = 'Download og-image.png';
+          btn.textContent = 'Done! Click download below.';
+        }, 'image/png');
+      };
+      img.src = url;
+    });
+  </script>
+</body>
+</html>
