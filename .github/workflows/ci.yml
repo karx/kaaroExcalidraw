@@ -31,8 +31,11 @@ jobs:
 
       - name: Bundle libraries
         run: |
-          node packages/cli/dist/index.js bundle libraries/basic-shapes -o libraries/basic-shapes/basic-shapes.excalidrawlib
-          node packages/cli/dist/index.js validate libraries/basic-shapes/basic-shapes.excalidrawlib
+          for dir in libraries/*/; do
+            name=$(basename "$dir")
+            node packages/cli/dist/index.js bundle "$dir" -o "$dir$name.excalidrawlib"
+            node packages/cli/dist/index.js validate "$dir$name.excalidrawlib"
+          done
 
       - name: Build site
         run: pnpm build:site
