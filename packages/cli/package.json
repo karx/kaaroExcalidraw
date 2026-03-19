@@ -1,0 +1,22 @@
+{
+  "name": "@kaaro/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "kaaro": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@kaaro/core": "workspace:*",
+    "citty": "^0.1.0",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}

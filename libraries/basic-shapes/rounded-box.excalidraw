@@ -1,0 +1,35 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://kaaro.dev",
+  "elements": [
+    {
+      "id": "rounded-box-1",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 160,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "seed": 42,
+      "version": 1,
+      "versionNonce": 100,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1700000000000,
+      "link": null,
+      "locked": false,
+      "roundness": { "type": 3 }
+    }
+  ],
+  "appState": {},
+  "files": {}
+}
