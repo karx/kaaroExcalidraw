@@ -1,5 +1,4 @@
 # Kaaro Excalidraw
-
 A toolkit for power users of [Excalidraw](https://excalidraw.com) — author, validate, bundle, and share reusable component libraries with a CLI pipeline, a browsable static site, and Claude Code skills for AI-assisted diagram generation.
 
 ## What's included
