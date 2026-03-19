@@ -1,0 +1,105 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://kaaro.dev",
+  "elements": [
+    {
+      "id": "gX0TyWC0aI9NYxGiWHIvK",
+      "type": "line",
+      "x": 4,
+      "y": 2,
+      "width": 24,
+      "height": 28,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 951558510,
+      "version": 1,
+      "versionNonce": 1502568981,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593082,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          24,
+          6
+        ],
+        [
+          24,
+          14
+        ],
+        [
+          11,
+          22
+        ],
+        [
+          11,
+          28
+        ]
+      ]
+    },
+    {
+      "id": "Ei1YUJo5UsZEVrOx2qcqc",
+      "type": "line",
+      "x": 15,
+      "y": 36,
+      "width": 1,
+      "height": 4,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 1555984762,
+      "version": 1,
+      "versionNonce": 895467616,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593082,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  ],
+  "appState": {},
+  "files": {}
+}

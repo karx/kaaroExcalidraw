@@ -1,0 +1,137 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://kaaro.dev",
+  "elements": [
+    {
+      "id": "MpG-3ikhA8pMpbMyj8Ldr",
+      "type": "line",
+      "x": 2,
+      "y": 0,
+      "width": 26,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 997895992,
+      "version": 1,
+      "versionNonce": 180300553,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593063,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          6,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          26,
+          5
+        ],
+        [
+          26,
+          15
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          0,
+          25
+        ],
+        [
+          0,
+          35
+        ],
+        [
+          6,
+          40
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          26,
+          35
+        ],
+        [
+          26,
+          25
+        ],
+        [
+          20,
+          20
+        ]
+      ]
+    },
+    {
+      "id": "unvbRZluBCyNV4bEc3uxv",
+      "type": "line",
+      "x": 2,
+      "y": 0,
+      "width": 6,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 877705738,
+      "version": 1,
+      "versionNonce": 1330261474,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593063,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          6,
+          20
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    }
+  ],
+  "appState": {},
+  "files": {}
+}

@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://kaaro.dev",
+  "elements": [
+    {
+      "id": "TTmWUSSABvgVouFUsbMFt",
+      "type": "line",
+      "x": 0,
+      "y": 0,
+      "width": 30,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 2008852486,
+      "version": 1,
+      "versionNonce": 1875598305,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593069,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          0,
+          18
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          30,
+          18
+        ]
+      ]
+    }
+  ],
+  "appState": {},
+  "files": {}
+}

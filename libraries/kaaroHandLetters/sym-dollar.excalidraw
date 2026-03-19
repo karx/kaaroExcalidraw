@@ -1,0 +1,125 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://kaaro.dev",
+  "elements": [
+    {
+      "id": "ldH85WIvJwVaEVAB76mA-",
+      "type": "line",
+      "x": 4,
+      "y": 2,
+      "width": 22,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 1216100080,
+      "version": 1,
+      "versionNonce": 80715819,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593067,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          22,
+          4
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          22,
+          24
+        ],
+        [
+          22,
+          32
+        ],
+        [
+          16,
+          36
+        ],
+        [
+          6,
+          36
+        ],
+        [
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "tadAuRvCmaG49o2hck0WP",
+      "type": "line",
+      "x": 15,
+      "y": 0,
+      "width": 1,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 603953374,
+      "version": 1,
+      "versionNonce": 1290068183,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593067,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ]
+    }
+  ],
+  "appState": {},
+  "files": {}
+}

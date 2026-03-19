@@ -1,0 +1,5 @@
+{
+  "name": "Kaaro Letters",
+  "description": "Every key on a standard keyboard as individual library items — letters A-Z, digits 0-9, and common symbols/signs. Each item is a key-cap styled shape with the character displayed inside.",
+  "authors": [{ "name": "Kaaro" }]
+}

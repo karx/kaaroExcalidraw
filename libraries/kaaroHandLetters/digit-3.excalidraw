@@ -1,0 +1,121 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://kaaro.dev",
+  "elements": [
+    {
+      "id": "-phsd9CMnvejhNOcRMOde",
+      "type": "line",
+      "x": 0,
+      "y": 0,
+      "width": 30,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 1698255181,
+      "version": 1,
+      "versionNonce": 436274523,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593061,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          0,
+          6
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          30,
+          14
+        ],
+        [
+          22,
+          20
+        ],
+        [
+          30,
+          26
+        ],
+        [
+          30,
+          34
+        ],
+        [
+          22,
+          40
+        ],
+        [
+          8,
+          40
+        ],
+        [
+          0,
+          34
+        ]
+      ]
+    },
+    {
+      "id": "AjMadB97NwGFHB51kCsG6",
+      "type": "line",
+      "x": 14,
+      "y": 20,
+      "width": 8,
+      "height": 1,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "seed": 137529326,
+      "version": 1,
+      "versionNonce": 849036096,
+      "isDeleted": false,
+      "groupIds": [],
+      "boundElements": null,
+      "updated": 1773917593061,
+      "link": null,
+      "locked": false,
+      "roundness": {
+        "type": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          8,
+          0
+        ]
+      ]
+    }
+  ],
+  "appState": {},
+  "files": {}
+}
