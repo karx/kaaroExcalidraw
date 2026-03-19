@@ -8,10 +8,10 @@
     "build": "pnpm build:core && pnpm build:cli",
     "build:core": "pnpm --filter @kaaro/core build",
     "build:cli": "pnpm --filter @kaaro/cli build",
-    "build:libs": "npx tsx packages/cli/src/index.ts registry libraries -o packages/site/public/cdn",
+    "build:libs": "node packages/cli/dist/index.js registry libraries -o packages/site/public/cdn",
     "build:site": "pnpm build:libs && pnpm --filter @kaaro/site build",
     "build:all": "pnpm build && pnpm build:site",
-    "dev:site": "pnpm build:libs && pnpm --filter @kaaro/site dev",
+    "dev:site": "pnpm build && pnpm build:libs && pnpm --filter @kaaro/site dev",
     "typecheck": "tsc --build"
   },
   "devDependencies": {
