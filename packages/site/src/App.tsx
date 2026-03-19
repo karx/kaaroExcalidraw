@@ -22,8 +22,13 @@ export function App() {
       <header>
         <h1>Kaaro Excalidraw Libraries</h1>
         <p className="subtitle">
-          Browse and download reusable Excalidraw component libraries
+          Browse, import, and download reusable Excalidraw component libraries
         </p>
+        <nav className="header-nav">
+          <a href="https://github.com/karx/kaaroExcalidraw#readme" target="_blank" rel="noopener noreferrer">
+            About this project
+          </a>
+        </nav>
       </header>
 
       <main>

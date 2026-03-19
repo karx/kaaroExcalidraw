@@ -55,12 +55,54 @@ const registryCmd = defineCommand({
   },
 });
 
+const previewCmd = defineCommand({
+  meta: { name: "preview", description: "Generate SVG preview for a .excalidrawlib file" },
+  args: {
+    path: { type: "positional", description: "Path to .excalidrawlib file", required: true },
+    output: { type: "string", alias: "o", description: "Output directory", required: true },
+  },
+  async run({ args }) {
+    const { generatePreview } = await import("./commands/preview.js");
+    const result = await generatePreview({
+      inputPath: resolve(args.path),
+      outputDir: resolve(args.output),
+    });
+    console.log(`✓ Generated preview for ${result.itemCount} items → ${result.outputPath}`);
+  },
+});
+
+const convertCmd = defineCommand({
+  meta: { name: "convert", description: "Convert Excalidraw clipboard JSON to a valid .excalidraw file" },
+  args: {
+    path: { type: "positional", description: "Path to clipboard JSON file", required: true },
+    output: { type: "string", alias: "o", description: "Output .excalidraw path", required: true },
+    noNormalize: { type: "boolean", description: "Skip coordinate normalization", default: false },
+  },
+  async run({ args }) {
+    const { convert } = await import("./commands/convert.js");
+    const result = await convert({
+      inputPath: resolve(args.path),
+      outputPath: resolve(args.output),
+      noNormalize: args.noNormalize,
+    });
+    console.log(`✓ Converted ${result.elementCount} elements → ${result.outputPath}`);
+    if (result.strippedFields.length > 0) {
+      console.log(`  Stripped clipboard fields: ${result.strippedFields.join(", ")}`);
+    }
+    if (result.offset.x !== 0 || result.offset.y !== 0) {
+      console.log(`  Normalized coordinates (offset: ${result.offset.x.toFixed(0)}, ${result.offset.y.toFixed(0)})`);
+    }
+  },
+});
+
 const main = defineCommand({
   meta: { name: "kaaro", version: "0.1.0", description: "Kaaro Excalidraw toolkit" },
   subCommands: {
     validate: validateCmd,
     bundle: bundleCmd,
     registry: registryCmd,
+    preview: previewCmd,
+    convert: convertCmd,
   },
 });
 

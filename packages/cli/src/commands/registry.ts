@@ -1,7 +1,7 @@
 import { readdir, readFile, mkdir, copyFile, writeFile } from "node:fs/promises";
 import { resolve, join } from "node:path";
-import type { Registry, RegistryEntry, LibraryMeta } from "@kaaro/core";
-import { readLibFile } from "@kaaro/core";
+import type { Registry, RegistryEntry, LibraryMeta, ExcalidrawElement } from "@kaaro/core";
+import { readLibFile, generateSvgPreview } from "@kaaro/core";
 
 export interface RegistryOptions {
   librariesRoot: string;
@@ -50,12 +50,29 @@ export async function generateRegistry(opts: RegistryOptions): Promise<Registry>
       itemNames: libData.libraryItems.map((item) => item.name),
     };
 
-    registryEntries.push(entry);
-
     // Copy .excalidrawlib to output
     const outLibDir = join(opts.outputDir, "libraries", dir.name);
     await mkdir(outLibDir, { recursive: true });
     await copyFile(libFilePath, join(outLibDir, libFiles[0]));
+
+    // Generate preview SVG
+    const allElements: ExcalidrawElement[] = [];
+    let offsetX = 0;
+    for (const item of libData.libraryItems) {
+      let maxW = 0;
+      for (const el of item.elements) {
+        maxW = Math.max(maxW, el.x + el.width);
+      }
+      for (const el of item.elements) {
+        allElements.push({ ...el, x: el.x + offsetX });
+      }
+      offsetX += maxW + 40;
+    }
+    const previewSvg = generateSvgPreview(allElements);
+    await writeFile(join(outLibDir, "preview.svg"), previewSvg, "utf-8");
+    entry.preview = `libraries/${dir.name}/preview.svg`;
+
+    registryEntries.push(entry);
   }
 
   const registry: Registry = {
